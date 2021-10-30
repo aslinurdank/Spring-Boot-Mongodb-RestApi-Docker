@@ -28,11 +28,6 @@ public class EmploymentServiceImpl implements EmploymentService {
 		return employeeDtos;
 	}
 
-	public void addEmployee(String ename, String jobName, String managerName, double salary) {
-		
-
-	}
-
 	@Override
 	public void addEmployee(Employee employee) {
 		Department department = departmentRepository.findById("1").orElse(new Department());

@@ -7,7 +7,6 @@ import java.util.List;
 
 public interface EmploymentService {
 	public List<EmployeeDto> getAllEmployees();
-	public void addEmployee(String ename, String jobName, String managerName, double salary);
 	public void addEmployee(Employee employee);
 	public void updateEmployee(String depno, String empno, Employee employee);
 }
